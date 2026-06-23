@@ -1,29 +1,44 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Hero } from "@/components/home/Hero";
+import { HookBand } from "@/components/home/HookBand";
+import { WhyUs } from "@/components/home/WhyUs";
+import { SignatureDishes } from "@/components/home/SignatureDishes";
+import { AboutPreview } from "@/components/home/AboutPreview";
+import { GalleryPreview } from "@/components/home/GalleryPreview";
+import { Events } from "@/components/home/Events";
+import { Reviews } from "@/components/home/Reviews";
+import { InstaGrid } from "@/components/home/InstaGrid";
+import { LocationCard } from "@/components/home/LocationCard";
+import { CTABand } from "@/components/home/CTABand";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "Shahi Pind — The Royal Taste of Punjab · Bhopal" },
+      { name: "description", content: "Authentic Punjabi fine dining on Ayodhya Bypass Road, Bhopal. Royal ambience, signature dishes, family celebrations. 4.7★ · 523+ reviews." },
+      { property: "og:title", content: "Shahi Pind — The Royal Taste of Punjab" },
+      { property: "og:description", content: "Punjab on every plate. Royal hospitality on every visit. Reserve your table in Bhopal." },
+      { property: "og:url", content: "/" },
     ],
+    links: [{ rel: "canonical", href: "/" }],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <>
+      <Hero />
+      <HookBand />
+      <WhyUs />
+      <SignatureDishes />
+      <AboutPreview />
+      <GalleryPreview />
+      <Events />
+      <Reviews />
+      <InstaGrid />
+      <LocationCard />
+      <CTABand />
+    </>
   );
 }
