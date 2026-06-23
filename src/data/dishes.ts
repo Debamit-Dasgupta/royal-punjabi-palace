@@ -17,7 +17,7 @@ export const SIGNATURE_DISHES: Dish[] = [
     veg: true,
     spice: 1,
     badge: "Royal Signature",
-    img: u("photo-1626500155210-71fbd2ff80a8"),
+    img: "https://www.funfoodfrolic.com/wp-content/uploads/2023/04/Dal-Makhani-Blog-500x500.jpg",
   },
   {
     name: "Butter Chicken",
@@ -47,7 +47,7 @@ export const SIGNATURE_DISHES: Dish[] = [
     desc: "The Indo-Chinese classic done royal — hand-rolled, wok-tossed, glossy with our house sauce.",
     veg: true,
     spice: 2,
-    img: u("photo-1626100134240-5f1d6f3a4f6d"),
+    img: "https://www.indianveggiedelight.com/wp-content/uploads/2017/06/gobi-manchurian-featured.jpg",
   },
   {
     name: "Crispy Corn Masala",

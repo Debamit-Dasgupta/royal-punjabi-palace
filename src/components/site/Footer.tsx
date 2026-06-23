@@ -17,7 +17,7 @@ function FacebookIcon({ className }: { className?: string }) {
     </svg>
   );
 }
-import logoAsset from "@/assets/logo.jpg.asset.json";
+import logoImg from "@/assets/logo.jpg";
 import { DottedFrame, JharokhaDivider } from "../ornaments";
 import { NAV, SITE } from "@/lib/site";
 
@@ -31,7 +31,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3">
               <img
-                src={logoAsset.url}
+                src={logoImg}
                 alt=""
                 width={56}
                 height={56}

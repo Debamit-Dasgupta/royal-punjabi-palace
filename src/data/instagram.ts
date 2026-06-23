@@ -2,7 +2,7 @@ const u = (id: string) =>
   `https://images.unsplash.com/${id}?auto=format&fit=crop&w=600&q=80`;
 
 export const INSTA_TILES: { src: string; alt: string }[] = [
-  { src: u("photo-1626500155210-71fbd2ff80a8"), alt: "Dal Makhani moment" },
+  { src: "https://www.funfoodfrolic.com/wp-content/uploads/2023/04/Dal-Makhani-Blog-500x500.jpg", alt: "Dal Makhani moment" },
   { src: u("photo-1543353071-873f17a7a088"), alt: "Family celebration" },
   { src: u("photo-1603894584373-5ac82b2ae398"), alt: "Butter chicken" },
   { src: u("photo-1414235077428-338989a2e8c0"), alt: "Royal lounge" },

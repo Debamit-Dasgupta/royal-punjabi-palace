@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Menu as MenuIcon, Phone, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import logoAsset from "@/assets/logo.jpg.asset.json";
+import logoImg from "@/assets/logo.jpg";
 import { NAV, SITE } from "@/lib/site";
 
 export function Header() {
@@ -44,13 +44,13 @@ export function Header() {
           aria-label={`${SITE.name} — ${SITE.tagline}`}
         >
           <img
-            src={logoAsset.url}
+            src={logoImg}
             alt={`${SITE.name} logo`}
             width={56}
             height={56}
             className="h-12 w-12 rounded-full ring-2 ring-[color:var(--gold)]/60 transition-transform duration-500 group-hover:scale-110 group-hover:rotate-2"
           />
-          <div className="hidden flex-col leading-tight sm:flex">
+          <div className="flex flex-col leading-tight">
             <span className="font-display text-base uppercase tracking-wider text-[color:var(--cream)]">
               {SITE.name}
             </span>

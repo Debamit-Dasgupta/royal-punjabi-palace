@@ -38,7 +38,7 @@ export const MENU: MenuItem[] = [
   { category: "Starters", name: "Seekh Kebab", desc: "Hand-minced lamb on iron skewers.", veg: false, spice: 2, price: "₹420", img: u("photo-1599487488170-d11ec9c172f0"), badge: "Chef Recommended" },
 
   // Punjabi Specials
-  { category: "Punjabi Specials", name: "Dal Makhani", desc: "Slow-simmered black lentils, single-origin butter.", veg: true, spice: 1, price: "₹340", img: u("photo-1626500155210-71fbd2ff80a8"), badge: "Royal Signature" },
+  { category: "Punjabi Specials", name: "Dal Makhani", desc: "Slow-simmered black lentils, single-origin butter.", veg: true, spice: 1, price: "₹340", img: "https://www.funfoodfrolic.com/wp-content/uploads/2023/04/Dal-Makhani-Blog-500x500.jpg", badge: "Royal Signature" },
   { category: "Punjabi Specials", name: "Sarson da Saag with Makki di Roti", desc: "Winter mustard greens, hand-pressed corn flatbread, white butter.", veg: true, spice: 1, price: "₹360", img: u("photo-1631452180519-c014fe946bc7"), badge: "Chef Recommended" },
   { category: "Punjabi Specials", name: "Amritsari Kulcha", desc: "Stuffed potato kulcha, charcoal-baked, chickpea curry.", veg: true, spice: 1, price: "₹280", img: u("photo-1601050690597-df0568f70950") },
   { category: "Punjabi Specials", name: "Pind di Kadhi Pakora", desc: "Village-style chickpea kadhi, gram flour fritters.", veg: true, spice: 2, price: "₹300", img: u("photo-1631452180519-c014fe946bc7") },
@@ -71,7 +71,7 @@ export const MENU: MenuItem[] = [
   { category: "Rice", name: "Jeera Rice", desc: "Cumin-tempered long-grain basmati.", veg: true, spice: 0, price: "₹220", img: u("photo-1633945274405-b6c8069047b0") },
 
   // Chinese
-  { category: "Chinese", name: "Veg Manchurian", desc: "Hand-rolled, wok-tossed, glossy house sauce.", veg: true, spice: 2, price: "₹280", img: u("photo-1626100134240-5f1d6f3a4f6d") },
+  { category: "Chinese", name: "Veg Manchurian", desc: "Hand-rolled, wok-tossed, glossy house sauce.", veg: true, spice: 2, price: "₹280", img: "https://www.indianveggiedelight.com/wp-content/uploads/2017/06/gobi-manchurian-featured.jpg" },
   { category: "Chinese", name: "Hakka Noodles", desc: "Wok-fired noodles, julienned vegetables, dark soy.", veg: true, spice: 1, price: "₹260", img: u("photo-1626100134240-5f1d6f3a4f6d") },
   { category: "Chinese", name: "Chilli Chicken (Dry)", desc: "Crisp chicken, bell pepper, Sichuan kick.", veg: false, spice: 3, price: "₹360", img: u("photo-1603894584373-5ac82b2ae398") },
 
